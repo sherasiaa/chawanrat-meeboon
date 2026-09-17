@@ -6,7 +6,7 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-pay = int(input("จำนวนเงินที่จ่าย"))
-price = int(input("ราคาสินค้า"))
+pay = int(input("จำนวนเงินที่จ่าย "))
+price = int(input("ราคาสินค้า "))
 net_price = pay-price
-print(f"จำนวนเงินทอน{net_price}")
+print(f"จำนวนเงินทอน {net_price}")
