@@ -7,7 +7,7 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-bmi = float(input("ค่า BMI"))
+bmi = float(input("ค่า BMI "))
 if bmi < 18.5 :
     print("Underweight")
 elif bmi <= 22.9 :
