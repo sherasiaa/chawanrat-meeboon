@@ -6,11 +6,11 @@
 
 
 # นักเรียนเขียนโค้ดต่อจากบรรทัดนี้
-price = float(input("ราคาสินค้าเต็ม"))
-is_member = int(input("สถานะสมาชิก(1 คือเป็นสมาชิก, 0 คือไม่เป็น)"))               
+price = float(input("ราคาสินค้าเต็ม "))
+is_member = int(input("สถานะสมาชิก(1 คือเป็นสมาชิก, 0 คือไม่เป็น) "))               
 discount = price *10/100
 net_price = price - discount
 if is_member == 1 :
-    print(f"ราคาสินค้าสุทธิ{net_price}")
+    print(f"ราคาสินค้าสุทธิ {net_price}")
 else :
-    print(f"ราคาสินค้าสุทธิ{price}")
+    print(f"ราคาสินค้าสุทธิ {price}")
